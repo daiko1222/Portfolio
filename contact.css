@@ -69,20 +69,35 @@ form {
     
 
     a {
-        margin-top: 6%;
+        margin-top: 10%;
         padding: 1%;
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 5%;
+    padding-right: 5%;
         background-color: #BC002C;
         color: #F2F2F2;
         border-radius: 32px;
         border: #F2F2F2 solid 1px;
         text-decoration: none;
         box-shadow:
-            2px 2px 2px rgb(90, 0, 0),
-            2px 2px 2px rgb(90, 0, 0),
-            2px 2px 2px rgb(90, 0, 0),
-            2px 2px 2px rgb(90, 0, 0);
+            4px 4px 4px #940023,
+            4px 4px 4px #940023,
+            4px 4px 4px #940023,
+            4px 4px 4px #940023;
+    }
+    a:hover {
+        padding: 1.5%;
+        border-radius: 32px;
+        background-color: #F2F2F2;
+        color: #BC002C;
+        border: #BC002C solid 1px;
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+        box-shadow:
+        4px 4px 4px #ff0c44,
+        4px 4px 4px #ff0c44,
+        4px 4px 4px #ff0c44,
+        4px 4px 4px #ff0c44;
+
     }
 }
 
@@ -98,6 +113,9 @@ input {
 
 #gauche {
     color: #F2F2F2;
+    h1 {
+        color: #F2F2F2;
+    }
 }
 
 #premier {
@@ -116,4 +134,44 @@ input {
     font-style: normal;
     letter-spacing: 2px;
     font-size: 18px;
+}
+.titre-simple {
+    margin-top: 5%;
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+#bouton {
+    margin-top: 10%;
+    padding: 1%;
+    padding-left: 5%;
+padding-right: 5%;
+    background-color: #BC002C;
+    color: #F2F2F2;
+    border-radius: 32px;
+    border: #F2F2F2 solid 1px;
+    text-decoration: none;
+    box-shadow:
+        4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023;
+}
+#bouton:hover {
+    padding: 1.5%;
+    border-radius: 32px;
+    background-color: #F2F2F2;
+    color: #BC002C;
+    border: #BC002C solid 1px;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    box-shadow:
+    4px 4px 4px #ff0c44,
+    4px 4px 4px #ff0c44,
+    4px 4px 4px #ff0c44,
+    4px 4px 4px #ff0c44;
+
 }
