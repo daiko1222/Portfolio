@@ -250,10 +250,7 @@ section {
     color: #F2F2F2;
     outline: none;
 }
-footer {
-    background-color: #BC002C;
-    color: #F2F2F2;
-}
+
 #ancre1 {
     text-align: center;
     max-width: 3%;
@@ -273,6 +270,8 @@ padding: 5%;
     text-align: right;
 }
 footer {
+    background-color: #BC002C;
+    color: #F2F2F2;
     margin-top: 6%;
     display: flex;
     flex-direction: row;
