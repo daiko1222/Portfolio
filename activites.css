@@ -1,0 +1,82 @@
+body {
+    margin: 0%;
+    font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Indie Flower", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    max-height: 15%;
+    background-color: #BC002C;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #F2F2F2;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+
+    h1 {
+        margin: 0;
+    }
+
+    a {
+        color: #F2F2F2;
+        text-decoration: none;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    a:hover {
+        text-decoration: underline #F2F2F2 1px;
+    }
+}
+
+#titre1 {
+    margin-top: 12%;
+}
+
+#ligne1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+#atelier, #stage-adultes,#maquillage, #interventions, #baby, #stage-enfants, #nos-spectacles {
+    
+    img {
+        width: 85%;
+        border-radius: 16px;
+}
+
+}
+#ligne2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.bouton {
+    max-width: 8%;
+}
