@@ -69,7 +69,11 @@ header {
         width: 85%;
         border-radius: 16px;
 }
-
+#interventions, #maquillage {
+    img {
+        max-width: 80%;
+    }
+}
 }
 #ligne2 {
     display: flex;
@@ -79,4 +83,9 @@ header {
 }
 .bouton {
     max-width: 8%;
+}
+#text-hover1 {
+    position: absolute;
+    top:50;
+    left:15;
 }

@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #F2F2F2;
+    text-align: center;
+    color: #BC002C;
+
+}
+
+h1,h4,
+h5,
+h6
+{
+font-family: "Indie Flower", system-ui;
+font-weight: 400;
+font-style: normal;
+color: #BC002C;
+}
+
+.Solid {
+    font-family: "Indie Flower", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    
+    background-color: #BC002C;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #F2F2F2;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+
+    h1 {
+        margin: 0;
+    }
+
+    a {
+        color: #F2F2F2;
+        text-decoration: none;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    a:hover {
+        text-decoration: underline #F2F2F2 1px;
+    }
+}
+
+footer {
+    background-color: #BC002C;
+    color: #F2F2F2;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: end;
+    justify-content: space-around;
+    justify-items: center;
+    padding:2%;
+    
+    a{
+        color: #BC002C;
+        text-decoration: none;
+    }
+    #boite1, #boite2 {
+        background-color: #F5F5F5;
+        border-radius: 16px;
+        color: #BC002C;
+        padding:1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+#test {
+    max-width: 100%;
+    min-width: none;
+    max-height: 100%;
+    min-height: none;
+}
+
+#img1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#img2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
