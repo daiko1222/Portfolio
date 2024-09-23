@@ -120,3 +120,38 @@ header {
     max-width: 100%;
     margin-left: -2%;
 }
+
+#equipe1, #equipe2, #equipe3,
+#equipe4, #equipe5, #equipe6 {
+    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 90%;
+    background-color: #ffff;
+    margin-bottom: 2%;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 400px;
+
+    img {
+        max-width: 40%;
+        max-height: fit-content;
+        margin-right: 1%;
+    }
+}
+#partie-1, #partie-2 {
+    max-width: 50%;
+    
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+#sect-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
