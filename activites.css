@@ -20,7 +20,16 @@ h6 {
         font-style: normal;
 
 }
+.actu-accueil {
+    text-decoration: underline #F2F2F2 2px;
+}
 
+#lvl{
+    background-color: #F2F2F2;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 175px;
+}
 header {
     position: fixed;
     width: 100%;
@@ -53,7 +62,7 @@ header {
 }
 
 #titre1 {
-    margin-top: 12%;
+    margin-top: 8%;
 }
 
 #ligne1 {
