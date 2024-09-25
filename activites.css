@@ -75,12 +75,14 @@ header {
 #atelier, #stage-adultes,#maquillage, #interventions, #baby, #stage-enfants, #nos-spectacles {
     
     img {
+        position: relative;
         width: 85%;
         border-radius: 16px;
 }
 #interventions, #maquillage {
     img {
-        max-width: 80%;
+        
+        max-width: 50%;
     }
 }
 }
@@ -95,6 +97,46 @@ header {
 }
 #text-hover1 {
     position: absolute;
-    top:50;
-    left:15;
+top: 620px;
+left: 50px;
+z-index: 999;
+color: #F2F2F2;
+}
+#text-hover2 {
+    position: absolute;
+top: 620px;
+left: 700px;
+z-index: 999;
+color: #F2F2F2;
+}
+#text-hover3 {
+    position: absolute;
+top: 480px;
+left: 1320px;
+z-index: 999;
+color: #F2F2F2;
+}
+#text-hover4 {
+    position: absolute;
+top: 680px;
+left: 1320px;
+z-index: 999;
+color: #F2F2F2;
+}
+#text-hover5 {
+    position: absolute;
+top: 1120px;
+left: 80px;
+z-index: 999;
+color: #F2F2F2;
+}
+#text-hover6 {
+    position: absolute;
+top: 1120px;
+left: 1000px;
+z-index: 999;
+color: #F2F2F2;
+}
+#colone1 {
+    max-height: 20%;
 }
