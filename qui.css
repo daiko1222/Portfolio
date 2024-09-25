@@ -109,8 +109,9 @@ header {
 }
 #un {
     margin:0%;
-    padding:0%;
-    margin-right: -2%;
+    padding:-2%;
+    margin-left: -6%;
+    
 }
 #deux {
     padding: 2%;
@@ -118,7 +119,7 @@ header {
     background-color: #ffff;
     border-radius: 32px;
     max-width: 100%;
-    margin-left: -2%;
+    margin-left: -4%;
 }
 
 #equipe1, #equipe2, #equipe3,
@@ -178,6 +179,10 @@ footer {
     a{
         color: #BC002C;
         text-decoration: none;
+    }
+    a:hover{
+        color: #BC002C;
+        text-decoration: underline;
     }
     #boite1, #boite2 {
         background-color: #F5F5F5;
