@@ -149,6 +149,7 @@ header {
     img {
         max-width:45%;
         margin-right: 2%;
+        border-radius: 32px;
     }
 }
 #partie-1, #partie-2 {

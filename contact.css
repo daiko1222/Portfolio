@@ -192,6 +192,7 @@ padding-right: 12%;
 #enfants {
     max-width: 90%;
     min-width: 80%;
+    border-radius: 32px;
 }
 
 #premier {
