@@ -3,7 +3,7 @@
 <!-- entête de la page -->
 
 <head>
-    
+
     <meta charset="utf-8" />
     <meta property="og:title" content="TP 1 : Intégration Web - SOLID'ART ET TY" />
     <meta property="og:audio" content="https://youtu.be/dbOqUSYxdSk?si=DeHzoVhRCVfkpeMI" />
@@ -11,6 +11,9 @@
     <meta property="og:url"
         content="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/index.html" />
     <link rel="stylesheet" href="contact.css" />
+    <meta name="description" content="Notre site pour l'association Solid'art et Ty">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Intégration Web - Alice FONTAINE / Anaïs DOUCE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
@@ -21,18 +24,17 @@
     <!-- corps de la page -->
 
 <body>
-    
-    <header>
-        <h1 id="Solid"> <strong> Solid'art et TY </strong></h1><br><br>
-        <nav><a href="index.html"> Accueil</a>
-        <a href="qui.html"> Qui sommes-nous ?</a>
-        <a href="activite.html"> Nos activités</a>
-        <a href="galerie.html"> Galerie </a>
-        <a class="actu-accueil" href="contact.html"> Nous contacter</a></nav>
-    </header>
-    <div id="lvl">
 
-    </div>
+    <header class="tout">
+        <img src="/images/logo-blanc-étoile-1.svg" alt="logo de l'association Solid'art et Ty" class="logo-blanc"><br>
+        <nav><a href="index.html"> Accueil</a>
+            <a href="qui.html"> Qui sommes-nous ?</a>
+            <a href="activite.html"> Nos activités</a>
+            <a href="galerie.html"> Galerie </a>
+            <a class="actu-accueil" href="contact.html"> Nous contacter</a>
+        </nav>
+    </header>
+    
     <section>
 
         <div id="premier">
@@ -46,38 +48,47 @@
                 </div>
                 <div class="test">
                     <form method="get" action="result.html">
-                        <input type="text" name="nom" id="nom" placeholder="Nom"/><br><br><!-- placeholder -> Nom dans la case de formulaire -->
-                        <input type="text" name="prenom" id="prenom" placeholder="Prénom"/><br><br>
-                        <input type="email" name="email" id="email" placeholder="Email"/><br><br><br>
-                        <input type="checkbox" name="donnees" id="donnees" /> <label for="donnees"> J'accepte que mes données soient utilisées par Solid'art et Ty</label><br><br><br>
-                        </form>
+                        <input type="text" name="nom" id="nom"
+                            placeholder="Nom" /><br><br><!-- placeholder -> Nom dans la case de formulaire -->
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" /><br><br>
+                        <input type="email" name="email" id="email" placeholder="Email" /><br><br><br>
+                        <input type="checkbox" name="donnees" id="donnees" /> <label for="donnees"> J'accepte que mes
+                            données soient utilisées par Solid'art et Ty</label><br><br><br>
+                    </form>
                 </div>
                 <a class="bouton test" href="landingpage.html"
-                alt="Ceci est un lien pour confirmer votre inscription à notre newsletter">C'est parti !</a><br><br><br>
+                    alt="Ceci est un lien pour confirmer votre inscription à notre newsletter">C'est parti
+                    !</a><br><br><br>
                 <div class="test">
-                    <h1 class="titre-simple">Ou faites un don !  </h1><br>
-                    <a class="bouton" href="https://www.helloasso.com/associations/solid-art-et-ty/formulaires/1/widget" target="_blank"
-                    alt="Ceci est un lien pour vous envoyer sur notre page de don"> Don en ligne </a>
+                    <h1 class="titre-simple">Ou faites un don ! </h1><br>
+                    <a class="bouton" href="https://www.helloasso.com/associations/solid-art-et-ty/formulaires/1/widget"
+                        target="_blank" alt="Ceci est un lien pour vous envoyer sur notre page de don"> Don en ligne
+                    </a>
                 </div>
             </div>
-            <div >
-<img id="enfants" src="images/contact.jpg" alt="Photo de 2 enfants qui sourient avec les mains en l'air">
+            <div>
+                <img id="enfants" src="images/contact.jpg"
+                    alt="Photo de 2 enfants qui sourient avec les mains en l'air">
 
             </div>
 
-            
+
         </div>
     </section>
     <footer>
         <div class="Logo"><br><br>
-        <img id="logo-footer" src="images/logo-blanc-étoile-1.svg" alt="Logo de l'association Solid'art et Ty">
+            <img id="logo-footer" src="images/logo-blanc-étoile-1.svg" alt="Logo de l'association Solid'art et Ty">
         </div>
-        <div id="boite1"><p><strong>Nous contacter: </strong><br><br><br>
-        solid'art.et.ty@gmail.com</p></div>
-        <div id="boite2"><p><strong>Nous découvrir :</strong></p><br>
-        <a href="qui.html">• Qui sommes-nous ?</a><br><br>
-        <a href="activite.html">• Nos activités</a></div>
-        </footer>
+        <div id="boite1">
+            <p><strong>Nous contacter: </strong><br><br><br>
+                solid'art.et.ty@gmail.com</p>
+        </div>
+        <div id="boite2">
+            <p><strong>Nous découvrir :</strong></p><br>
+            <a href="qui.html">• Qui sommes-nous ?</a><br><br>
+            <a href="activite.html">• Nos activités</a>
+        </div>
+    </footer>
 
 </body>
 

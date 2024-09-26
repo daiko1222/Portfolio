@@ -19,17 +19,8 @@ h6,#Solid {
         font-weight: 400;
         font-style: normal;
 }
-#lvl{
-    background-color: #F2F2F2;
-    max-width: 100%;
-    min-height: 100px;
-    max-height: 175px;
-}
+
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
     background-color: #BC002C;
     text-align: center;
     padding-top: 1%;
@@ -37,7 +28,7 @@ header {
     color: #F2F2F2;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    
+width: 100%;
 
     h1 {
         margin: 0;
@@ -54,7 +45,10 @@ header {
         text-decoration: underline #F2F2F2 1px;
     }
 }
-
+.logo-blanc {
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
 #accueil-img1 {
     width: 80%;
     border-radius: 6%;
@@ -283,9 +277,22 @@ footer {
     flex-wrap: nowrap;
     justify-items: end;
     justify-content: space-around;
+    justify-items: center;
     padding:2%;
     
     a{
-        color: #F2F2F2;
+        color: #BC002C;
+        text-decoration: none;
     }
+    #boite1, #boite2 {
+        background-color: #F5F5F5;
+        border-radius: 16px;
+        color: #BC002C;
+        height: 200px;
+        width: 400px;
+    }
+}
+#Logo {
+    height: 250px;
+        width: 400px;
 }
