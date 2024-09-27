@@ -84,7 +84,6 @@ width: 100%;
 }
 
 #image1 {
-    margin-top: 8%;
     position: relative;
 }
 
@@ -270,7 +269,7 @@ width: 100%;
 }
 
 section {
-    margin-top: 6%;
+    margin-top: 4%;
     margin-bottom: 6%;
 }
 
@@ -317,13 +316,14 @@ section {
     background-color: #BC002C;
     border-radius: 32px;
     margin-left: 2%;
-    
+    margin-top: -5%;
+    margin-bottom: -2%;
     a{
         text-decoration: none;
 color: #F2F2F2;
 font-size: 40px;
 font-weight: 500;
-padding: 5%;
+padding: 2%;
     }
 }
 #ancre2{
@@ -338,22 +338,28 @@ footer {
     margin-top: 6%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-items: end;
     justify-content: space-around;
     justify-items: center;
     padding:2%;
-    
+    max-width: 100%;
+    min-width: 300px;
+    border-radius: 16px;
     a{
         color: #BC002C;
         text-decoration: none;
+    }
+    a:hover{
+        color: #BC002C;
+        text-decoration: underline;
     }
     #boite1, #boite2 {
         background-color: #F5F5F5;
         border-radius: 16px;
         color: #BC002C;
-        height: 200px;
-        width: 400px;
+        width: 20%;
+        min-width: 300px;
     }
 }
 #Logo {

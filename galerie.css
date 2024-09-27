@@ -13,6 +13,7 @@ body {
 }
 
 h1,
+h2,
 h3,
 h4,
 h5,
@@ -37,6 +38,11 @@ font-style: normal;
 }
 .Solid {
 font-size: 40px;
+color: black;
+
+}
+h2 .Solid {
+    font-size: 30px;
 }
 .footer {
     font-size: 30px;
@@ -77,18 +83,21 @@ width: 100%;
     margin-bottom: 2%;
     margin-top: 1%;
 }
-
+.starter {
+    margin-top: 4%;
+}
 
 .les-enfants {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .les-enfants img {
         height: 300px;
-        width: 600px;
+        width: 610px;
+        min-width: 300px;
         object-fit: cover;
         border-radius: 32px;
         margin: 0%;
@@ -100,28 +109,58 @@ section {
     width: 100%;
 }
 
+#ancre1 {
+    text-align: center;
+    max-width: 3%;
+    max-height: 6%; 
+    background-color: #BC002C;
+    border-radius: 32px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    a{
+        text-decoration: none;
+color: #F2F2F2;
+font-size: 40px;
+font-weight: 500;
+padding: 2%;
+    }
+}
+#ancre2{
+    margin-left: 20px;
+    max-width: 3%;
+    max-height: 6%; 
+    border-radius: 32px;
+}
+
 footer {
     background-color: #BC002C;
     color: #F2F2F2;
     margin-top: 6%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-items: end;
     justify-content: space-around;
     justify-items: center;
     padding:2%;
-    
+    max-width: 100%;
+    min-width: 300px;
+    border-radius: 16px;
     a{
         color: #BC002C;
         text-decoration: none;
+    }
+    a:hover{
+        color: #BC002C;
+        text-decoration: underline;
     }
     #boite1, #boite2 {
         background-color: #F5F5F5;
         border-radius: 16px;
         color: #BC002C;
-        height: 200px;
-        width: 400px;
+        width: 20%;
+        min-width: 300px;
     }
 }
 #Logo {
@@ -130,13 +169,3 @@ footer {
 }
 
 
-#img1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-#img2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
