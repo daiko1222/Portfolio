@@ -8,16 +8,37 @@ body {
     font-size: 20px;
     background-color: #F2F2F2;
     text-align: center;
+    color: black;
 }
 
 h1,
 h3,
 h4,
 h5,
-h6,#Solid {
+h6 {
+    margin: 0%;
+    font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+.gras {
+    font-weight: bold;
+    font-size: 65px;
+}
+.indie {
     font-family: "Indie Flower", system-ui;
-        font-weight: 400;
-        font-style: normal;
+font-weight: 400;
+font-style: normal;
+}
+.Solid {
+font-size: 40px;
+}
+.footer {
+    font-size: 30px;
 }
 
 header {
@@ -26,8 +47,8 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
     color: #F2F2F2;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 width: 100%;
 
     h1 {
@@ -50,8 +71,10 @@ width: 100%;
     margin-top: 1%;
 }
 #accueil-img1 {
-    width: 80%;
-    border-radius: 6%;
+    object-fit: cover;
+    width: 92%;
+    border-radius: 32px;
+    min-height: 300px;
 }
 
 #accueil-1 {
@@ -67,8 +90,8 @@ width: 100%;
 
 #text-hover {
     position: absolute;
-    left: 15%;
-    top: 15%;
+    left: 10%;
+    top: 10%;
 }
 
 .actu-accueil {
@@ -76,9 +99,12 @@ width: 100%;
 }
 
 #accueil-img2 {
-    max-width: 80%;
+    width: 80%;
+    min-height: 300px;
+    object-fit: cover;
+        
     margin: 0%;
-    border-radius: 6%;
+    border-radius: 16px;
 
 }
 
@@ -110,6 +136,8 @@ width: 100%;
 
     #a1 {
         max-width: 70%;
+        text-align: left;
+        min-width: 300px;
     }
 
 }
@@ -134,7 +162,8 @@ width: 100%;
     flex-direction: row;
     background-color: #BC002C;
     text-align: center;
-    width: 80%;
+    width: 92%;
+    min-width: 300px;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 16px;
@@ -151,15 +180,22 @@ width: 100%;
         align-items: center;
         color: #F2F2F2;
         width: 50%;
+        min-width: 20%;
 
         a {
             padding: 2%;
+            min-width: 20%;
             width: 30%;
             background-color: #F2F2F2;
             color: #BC002C;
-            border-radius: 8px;
+            border-radius: 16px;
+            box-shadow: 
+    4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023;
         }
-
+        
         #don:hover {
             padding: 2%;
             outline: #F2F2F2 solid 2px;
@@ -173,6 +209,11 @@ width: 100%;
             outline: #F2F2F2 solid 2px;
             background-color: #BC002C;
             color: #F2F2F2;
+            box-shadow: 
+    4px 4px 4px #940023,
+    4px 4px 4px #940023,
+    4px 4px 4px #940023,
+    4px 4px 4px #940023;
 
         }
     }
@@ -183,18 +224,21 @@ width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 100%;
 
 }
 
 #nos-activités {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    min-width: 300px;
     max-width: 100%;
     text-align: center;
     margin-bottom: 4%;
+    
 
     h3 {
         font-family: "Abel", sans-serif;
@@ -208,17 +252,20 @@ width: 100%;
 #stages-enfants {
     letter-spacing: 2px;
     background-color: #BC002C;
-    border-radius: 16px;
     color: #F2F2F2;
     padding: 1%;
     padding-left: -5%;
     padding-right: -5%;
     max-width: 25%;
     margin: 0%;
-height: 500px;
-    img {
+    min-width: 300px;
+    width: 30%;
+    border-radius: 32px;
+    .img-activ {
+        object-fit: cover;
         width: 100%;
-        border-radius: 16px;
+        min-width: 300px;
+        border-radius: 32px;
     }
 }
 
@@ -229,25 +276,38 @@ section {
 
 .div-bouton {
     text-align: right;
+    
+    
 }
 
 .bouton {
     max-width: 8%;
 }
 .bouton:hover {
-    padding:1%;
+    border-radius: 32px;
+    box-shadow:
+        4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023,
+        4px 4px 4px #940023;
+    
 }
 #decouverte {
-    padding: 1%;
-    outline: #BC002C solid 2px;
-    color:#BC002C;
-    text-decoration: none;
+    padding: 1.5%;
+    min-width: 300px;
+    width: 30%;
+    background-color: #F2F2F2;
+    color: #BC002C;
     border-radius: 16px;
+    border: #BC002C solid 2px;
 }
 #decouverte:hover {
+    padding: 1.5%;
+    min-width: 300px;
+    width: 30%;
     background-color: #BC002C;
     color: #F2F2F2;
-    outline: none;
+    border-radius: 16px;
 }
 
 #ancre1 {
@@ -255,18 +315,22 @@ section {
     max-width: 3%;
     max-height: 6%; 
     background-color: #BC002C;
-    border-radius: 18px;
+    border-radius: 32px;
+    margin-left: 2%;
     
     a{
         text-decoration: none;
 color: #F2F2F2;
-font-size: 1000;
+font-size: 40px;
 font-weight: 500;
 padding: 5%;
     }
 }
 #ancre2{
-    text-align: right;
+    margin-left: 20px;
+    max-width: 3%;
+    max-height: 6%; 
+    border-radius: 32px;
 }
 footer {
     background-color: #BC002C;

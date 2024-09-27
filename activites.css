@@ -15,11 +15,31 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Indie Flower", system-ui;
-        font-weight: 400;
-        font-style: normal;
-
+    margin: 0%;
+    font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
 }
+.gras {
+    font-weight: bold;
+    font-size: 65px;
+}
+.indie {
+    font-family: "Indie Flower", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+.Solid {
+font-size: 40px;
+}
+.footer {
+    font-size: 30px;
+}
+
 .actu-accueil {
     text-decoration: underline #F2F2F2 2px;
 }
