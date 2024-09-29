@@ -1,17 +1,19 @@
-    body {
+body {
     margin: 0%;
     font-family: "Raleway", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 2px;
     font-size: 20px;
     background-color: #F2F2F2;
     text-align: center;
-    color: black;
+    color: #BC002C;
+
 }
 
 h1,
+h2,
 h3,
 h4,
 h5,
@@ -36,21 +38,21 @@ font-style: normal;
 }
 .Solid {
 font-size: 40px;
+color: black;
+
+}
+h2 .Solid {
+    font-size: 30px;
 }
 .footer {
     font-size: 30px;
 }
-
 .actu-accueil {
     text-decoration: underline #F2F2F2 2px;
 }
 
 
 
-.logo-blanc {
-    margin-bottom: 2%;
-    margin-top: 1%;
-}
 header {
     background-color: #BC002C;
     text-align: center;
@@ -76,127 +78,35 @@ width: 100%;
         text-decoration: underline #F2F2F2 1px;
     }
 }
-#sect-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:100%;
-    min-width:300px;
+
+.logo-blanc {
     margin-bottom: 2%;
-    padding-bottom: 2%;
+    margin-top: 1%;
 }
-
-#partie1 {
-    margin:0%;
+.starter {
     margin-top: 4%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 95%;
-    justify-items: center;
-    height: 80%;
-    
-    img {
-        max-width: 80%;
-        border-radius: 32px;
-        
-    }
-   a {
-    padding: 2%;
-    min-width: 2%;
-    max-width: 80%;
-    border-radius: 32px;
-    margin-bottom: 1%;
-    background-color: #ffff;
-    color: #BC002C;
-    text-decoration: none;
-    border: #BC002C solid 2px;
-    box-shadow: 
-    4px 4px 4px #ff0c44,
-        4px 4px 4px #ff0c44,
-        4px 4px 4px #ff0c44,
-        4px 4px 4px #ff0c44;
-   }
-   a:hover {
-    transition:0.5s;
-    padding: 2%;
-    border-radius: 32px;
-    min-height:300px;
-    max-width: 80%;
-    background-color: #BC002C;
-    color: #fff;
-    text-decoration: none;
-    border: #ffff solid 2px;
-    box-shadow: 
-    4px 4px 4px #940023,
-    4px 4px 4px #940023,
-    4px 4px 4px #940023,
-    4px 4px 4px #940023;;
-   }
-}
-#un img {
-    margin:0%;
-    margin-left: -6%;
-    min-height:100%;
-    max-width: 80%;
-    object-fit: cover;
-    margin-right: -4%;
-}
-#deux {
-    min-height: 300px;
-    max-width: 60%;
-    background-color: #ffff;
-    border-radius: 32px;
-    margin-left: -4%;
-    p{
-        margin:3%;
-    }
 }
 
-
-#equipe1, #equipe2, #equipe3,
-#equipe4, #equipe5, #equipe6 {
-    background-color: #ffff;
-    margin: 20px;
-    border-radius: 32px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-min-width: 300px;
-width:40%;
-margin:1%;
-    img {
-        margin:3%;
-        max-width:40%;
-        max-height:400px;
-        object-fit: cover;
-        margin-right: 1.5%;
-        border-radius: 32px;
-    }
-    p{
-        margin:3%;
-    }
-}
-#partie-1 {
-
-    
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- justify-content: center;
- p {
-    font-size: medium;
- }
- 
-}
-#sect-2 {
+.les-enfants {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.les-enfants img {
+        height: 300px;
+        width: 610px;
+        min-width: 300px;
+        object-fit: cover;
+        border-radius: 32px;
+        margin: 0%;
+}
+
+
+section {
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    width: 100%;
 }
 
 #ancre1 {
@@ -206,7 +116,7 @@ margin:1%;
     background-color: #BC002C;
     border-radius: 32px;
     margin-left: 2%;
-    margin-top: -5%;
+    margin-top: 2%;
     margin-bottom: -2%;
     a{
         text-decoration: none;
@@ -254,6 +164,8 @@ footer {
     }
 }
 #Logo {
-        width: 20%;
-        min-width: 300px;
+    height: 250px;
+        width: 400px;
 }
+
+

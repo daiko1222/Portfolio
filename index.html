@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <!-- entête de la page -->
 
 <head>
@@ -10,6 +10,9 @@
     <meta property="og:url"
         content="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/index.html" />
     <link rel="stylesheet" href="index.css" />
+    <meta name="description" content="Notre site pour l'association Solid'art et Ty">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Intégration Web - Alice FONTAINE / Anaïs DOUCE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -21,15 +24,15 @@
 <!-- corps de la page -->
 
 <body>
-    <header>
-        <h1 id="Solid"> <strong> SOLID'ART ET TY</strong></h1><br><br>
-        <nav> <a class="actu-accueil" href="index.html"> Accueil</a>
-            <a href="qui.html"> Qui sommes-nous ?</a>
-            <a href="activite.html"> Nos activités</a>
-            <a href="spectacles.html"> Nos spectacles</a>
-            <a href="contact.html"> Nous contacter</a>
-        </nav>
+    <header id="header">
+        <a href="index.html"><img src="/images/logo-blanc-étoile-1.svg" alt="logo de l'association Solid'art et Ty" class="logo-blanc"></a><br>
+        <nav><a class="actu-accueil" href="index.html"> Accueil</a>
+        <a href="qui.html"> Qui sommes-nous ?</a>
+        <a href="activite.html"> Nos activités</a>
+        <a href="galerie.html"> Galerie </a>
+        <a href="contact.html"> Nous contacter</a></nav>
     </header>
+    
 
     <section>
         <div id="accueil-1">
@@ -45,6 +48,7 @@
     <section>
         <div id="accueil-2">
             <div id="a1">
+                <h1 class="Solid indie"><strong>Solid'art et Ty </strong>en bref c'est :</h1><br><br>
                 <p> -> Des ateliers, des stages, des interventions extérieures et bien
                     évidemment <br>
                     des spectacles !</p><br>
@@ -63,7 +67,7 @@
 
     <section>
         <div id="toujours-plus">
-            <h1 id="text-hover2"> NEWS</h1><br><br>
+            <h1 id="text-hover2" class="gras indie"> NEWS</h1><br><br>
             <div id="rectangle-rouge">
                 <img id="accueil-img1" src="images/Image-accueil2.jpeg" alt="Photo d'enfants qui s'amusent" title=”ceci
                     est une infobulle” />
@@ -73,20 +77,20 @@
                         Pour les soutenir et réaliser ce rêve : </p><br><br>
                     <a id="don"
                         href="https://www.helloasso.com/associations/solid-art-et-ty/collectes/notre-troupe-ados-au-festival-international-de-valencia-espagne-2024"
-                        target=”_blank”>FAITES UN DON</a>
+                        target=”_blank”>FAITES UN DON</a><!-- target=”_blank” -> Page ouverte dans un nouvel onglet -->
                 </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div>
-        <h1>DÉCOUVREZ NOS ACTIVITÉS</h1><br><br>
+        <div><br>
+        <h1 class="Solid">DÉCOUVREZ NOS ACTIVITÉS</h1><br><br> <br><br>
                 <div id="nos-activités">
                     <div id="atelier">
-                        <img src="images/Ateliers.jpeg"
-                            alt="Une photo avec des ados en train de répéter et d'apprendre">
-                        <h3>ATELLIERS HEBDOMADIRES</h3>
+                        <img class="img-activ" src="images/Ateliers.jpeg"
+                            alt="Une photo avec des ados en train de répéter et d'apprendre"><br><br>
+                        <h3>ATELLIERS HEBDOMADIRES</h3><br>
                         <div class="div-bouton">
                             <a
                                 href="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/activite.html"><img
@@ -95,8 +99,8 @@
                         </div>
                     </div>
                     <div id="stages-adultes">
-                        <img src="images/Stages-adultes.jpg" alt="Une photo d'une femme durant une pièce de théâtre">
-                        <h3>STAGES ADULTES</h3>
+                        <img class="img-activ" src="images/Stages-adultes.jpg" alt="Une photo d'une femme durant une pièce de théâtre"><br><br>
+                        <h3>STAGES ADULTES</h3><br>
                         <div class="div-bouton">
                             <a
                                 href="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/activite.html"><img
@@ -105,38 +109,40 @@
                         </div>
                     </div>
                     <div id="stages-enfants">
-                        <img src="images/Stages-enfants.jpeg"
-                            alt="Une photo avec des enfants en cercles qui apprennent">
+                        <img class="img-activ" src="images/Stages-enfants.jpeg"
+                            alt="Une photo avec des enfants en cercles qui apprennent"><br><br>
                         <h3>STAGES ENFANTS <br>
-                            ET ADO</h3>
+                            ET ADO</h3><br>
                         <div class="div-bouton">
                             <a
                                 href="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/activite.html"><img
                                     class="bouton" src="images/Bouton.svg" alt="bouton pour se rendre sur la page activités">
                             </a>
-                        </div><br><br>
+                        </div><br>
                     </div>
-                </div><br><br>
+                </div><br><br><br>
             <a id="decouverte" href="file:///C:/Users/anais/OneDrive/Bureau/MyDigitalSchool%201/My%20Di%20-%20B2/Int%C3%A9gration%20WEB/TP/TP%201/activite.html">DÉCOUVREZ TOUTES NOS ACTIVITÉS</a>
 
-        </div><br><br>
+        </div><br>
         
 
     </section>
     <div id="ancre2"></div>
         <div id="ancre1">
-            <a href="#accueil-1">↑</a>
+            <a href="#header">↑</a>
         </div></div>
-<footer>
-<div class="Logo">
-<h1>SOLID'ART ET TY</h1>
-</div>
-<div><p>Nous contacter: <br><br>
-solid'art.et.ty@gmail.com</p></div>
-<div><p>Nous découvrir :</p>
-<a href="qui.html">Qui sommes-nous ?</a><br>
-<a href="activite.html">Nos activités</a></div>
-</footer>
+        <footer>
+            <div class="Logo"><br><br>
+                <a href="index.html"><img src="/images/logo-blanc-étoile-1.svg" alt="logo de l'association Solid'art et Ty" class="logo-blanc"></a><br>
+            </div>
+            <div id="boite1"><p class="indie footer"><strong>Nous contacter: </strong></p><br>
+            <p>solid'art.et.ty@gmail.com</p></div>
+            <div id="boite2"><p class="indie footer"><strong>Nous découvrir :</strong></p>
+            <a href="qui.html">Qui sommes-nous ?</a><br><br>
+            <a href="activite.html">Nos activités</a></div>
+            </footer>
+        
+    
 </body>
 
 </html>

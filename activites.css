@@ -15,18 +15,43 @@ h3,
 h4,
 h5,
 h6 {
+    margin: 0%;
+    font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+.gras {
+    font-weight: bold;
+    font-size: 65px;
+}
+.indie {
     font-family: "Indie Flower", system-ui;
-        font-weight: 400;
-        font-style: normal;
-
+font-weight: 400;
+font-style: normal;
+}
+.Solid {
+font-size: 40px;
+}
+.footer {
+    font-size: 30px;
+}
+.start{
+margin-top: 4%;
+}
+.actu-accueil {
+    text-decoration: underline #F2F2F2 2px;
 }
 
+
+.logo-blanc {
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
-    max-height: 15%;
     background-color: #BC002C;
     text-align: center;
     padding-top: 1%;
@@ -34,7 +59,7 @@ header {
     color: #F2F2F2;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    
+width: 100%;
 
     h1 {
         margin: 0;
@@ -52,31 +77,164 @@ header {
     }
 }
 
-#titre1 {
-    margin-top: 12%;
-}
+
 
 #ligne1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    min-width: 300px;
     
-}
-#atelier, #stage-adultes,#maquillage, #interventions, #baby, #stage-enfants, #nos-spectacles {
-    
-    img {
-        width: 85%;
-        border-radius: 16px;
 }
 
-}
+
 #ligne2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 300px;
     width: 100%;
+    
 }
-.bouton {
-    max-width: 8%;
+
+#colone1 {
+    max-height: 20%;
+}
+#bouton {
+    max-width: 15%;
+}
+
+.card {
+    min-width: 300px;
+    width: 600px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+border-radius: 32px;
+
+
+
+
+}
+.card>img, .halfcard>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card>.overlay, .halfcard>.overlay {
+    transition:0.5s;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    color: black;
+    overflow: auto;
+    text-align: center;
+    
+    
+}
+ul {
+    list-style-type:none ;
+}
+.card>.overlay:hover, .halfcard>.overlay:hover {
+    opacity: 1;
+}
+.card>.constant, .halfcard>.constant{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: #F2F2F2;
+}
+.red {
+    color: #BC002C;
+}
+.halfcard {
+    min-width: 300px;
+    width: 600px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+border-radius: 32px;
+}
+#galerie {
+    background-color: white;
+    
+}
+#interventions {
+    margin-top: 25px;
+}
+section {
+    margin-bottom: 75px;
+    margin-bottom: 250px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#ancre1 {
+    text-align: center;
+    max-width: 3%;
+    max-height: 6%; 
+    background-color: #BC002C;
+    border-radius: 32px;
+    margin-left: 2%;
+    margin-top: -10%;
+    margin-bottom: -2%;
+    a{
+        text-decoration: none;
+color: #F2F2F2;
+font-size: 40px;
+font-weight: 500;
+padding: 2%;
+    }
+}
+#ancre2{
+    margin-left: 20px;
+    max-width: 3%;
+    max-height: 6%; 
+    border-radius: 32px;
+}
+
+footer {
+    background-color: #BC002C;
+    color: #F2F2F2;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: end;
+    justify-content: space-around;
+    justify-items: center;
+    padding:2%;
+    max-width: 100%;
+    min-width: 300px;
+    border-radius: 16px;
+    a{
+        color: #BC002C;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #BC002C;
+        text-decoration: underline;
+    }
+    #boite1, #boite2 {
+        background-color: #F5F5F5;
+        border-radius: 16px;
+        color: #BC002C;
+        width: 20%;
+        min-width: 300px;
+    }
+}
+#Logo {
+    height: 250px;
+        width: 400px;
 }
