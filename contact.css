@@ -190,6 +190,7 @@ margin-bottom: 4%;
         4px 4px 4px #940023;
 }
 .bouton:hover {
+    transition:0.5s;
     padding: 3.5%;
     border-radius: 16px;
     background-color: #F2F2F2;
@@ -269,3 +270,29 @@ footer {
     height: 250px;
         width: 400px;
 }
+#etoile {
+    width: 100%;
+    min-width: 300px;
+}
+#star {
+    img{
+    width: 8%;
+    min-width: 100px;
+animation: star 6s infinite 3s;}
+}
+@keyframes star {
+    0% {
+
+    }
+    30% {
+        translate:100px;
+    }
+    60% {
+
+        translate: -100px;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

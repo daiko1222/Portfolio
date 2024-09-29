@@ -196,6 +196,7 @@ width: 100%;
         }
         
         #don:hover {
+            transition:0.5s;
             padding: 2%;
             outline: #F2F2F2 solid 2px;
             background-color: #BC002C;
@@ -204,7 +205,7 @@ width: 100%;
         }
 
         a:hover {
-            opacity: 80%;
+            transition:0.5s;
             outline: #F2F2F2 solid 2px;
             background-color: #BC002C;
             color: #F2F2F2;
@@ -301,6 +302,7 @@ section {
     border: #BC002C solid 2px;
 }
 #decouverte:hover {
+    transition:0.5s;
     padding: 1.5%;
     min-width: 300px;
     width: 30%;

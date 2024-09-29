@@ -125,7 +125,7 @@ border-radius: 32px;
     object-fit: cover;
 }
 .card>.overlay, .halfcard>.overlay {
-    
+    transition:0.5s;
     position: absolute;
     top:0;
     left:0;
