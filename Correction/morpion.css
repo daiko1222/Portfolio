@@ -1,0 +1,107 @@
+:root {
+    font-size: 12pt;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20px;
+    text-align: center;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 99, 189);
+    min-height: 100px;
+    min-width: 200px;
+    position: fixed;
+    border-radius: 32px;
+    margin-left: -1%;
+}
+
+header a {
+    color: white;
+    text-decoration: dotted;
+}
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 50px;
+    min-width: 200px;
+    border-radius: 32px;
+}
+header div:hover {
+    transition: all 1s;
+    cursor: pointer;
+background-color: rgb(151, 79, 182);
+a {
+    transition: all 1s;
+    color: white;
+    text-decoration: dotted;
+    font-size: 1.5rem;
+}}
+
+h1 {
+    color: blue;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#morpion2 {
+    display: flex;
+    justify-content: center;
+}
+#morpion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 40%;
+}
+
+#morpion>* {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+#morpion div{
+    text-align: center;
+    border: black solid 2px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size:10rem;
+}
+#morpion>*:hover {
+    cursor: pointer;
+}
+
+.result {
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
