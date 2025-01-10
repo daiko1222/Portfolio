@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!-- entête de la page -->
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- corps de la page -->
+
+<body>
+    <header>
+
+        <div id="logo-header">
+
+            <img class="logo" src="images/Logo.png" alt="Logo de Robbie Lens" title=”ceci est une infobulle” />
+
+        </div>
+
+        <div class="nav">
+            <nav>
+
+                <a href="index.html"> Accueil </a>
+                <a href="formulaire.html"> Création d'article </a>
+                <div class="acc-article"><a class="art" href="#"> Articles </a>
+                    <div class="menu">
+                        <a href="article.html"> ☆ 1</a>
+                        <a href="article2.html"> ☆ 2</a>
+                        <a href="article3.html"> ☆ 3</a>
+                    </div>
+                </div>
+
+
+
+            </nav>
+        </div>
+
+
+
+    </header>
+    <br>
+
+    <h1> Formulaire de création d'article </h1>
+
+<br>
+    <div class="form">
+        <form method="get" action="result.html">
+
+            <div class="aut-nom"><label for="auteur">Nom de l'auteur :</label> <br>
+                <input type="text" name="auteur" id="auteur" />
+            </div>
+
+            <div class="art-nom"><label for="nom">Nom de l'article :</label> <br><br>
+                <input type="text" name="nom" id="nom" />
+            </div><br>
+
+            <div class="category"><label for="category">Catégorie de l'article :</label><br> <br>
+                <select>
+                    <option> Festivité</option>
+                    <option> Cadeaux</option>
+                </select>
+            </div>
+            <br><br><br>
+            <div class="art-txt">
+                <label for="texte"> Texte de l'article :</label> <br>
+                <textarea name="texte" id="texte">
+
+    </textarea>
+            </div>
+
+            <div class="art-url">
+                <label for="url">URL de l'article :</label> <br><br>
+                <input type="url" name="url" id="url">
+            </div>
+<br><br>
+
+            <div class="art-submit">
+                <input type="submit">
+            </div>
+    </div>
+
+
+
+</body>
+
+</html>

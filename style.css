@@ -1,0 +1,472 @@
+header {
+    background-color: darkred;
+    height: fit-content;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin:0%;
+}
+
+header ul,
+header li {
+
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0%
+}
+
+nav {
+    background-color: darkred;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+div.nav {
+    width: 800px;
+    min-width: 400px;
+    margin-right: 25%;
+}
+
+h4 {
+    font-size: 26px;
+    color: rgb(99, 0, 0);
+}
+
+img.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+
+div.stars {
+    margin: 8%;
+    color: darkred;
+}
+
+div.stars p {
+    margin: 5%;
+    color: darkred;
+}
+
+a {
+    text-align-last: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2%;
+    word-spacing: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+p,
+input,
+textarea,
+label,
+select {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+ul {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+}
+
+ul,
+li {
+    text-align: center;
+}
+.stars {
+    margin-top: 100px;
+}
+a:hover {
+    color: pink;
+    background-color: red;
+}
+
+div.banière {
+    justify-content: left;
+    margin-bottom: 2%;
+    height: 400px;
+    width: 1440px;
+    object-fit: contain;
+    margin-left: -14.6%;
+
+}
+
+img.sapin {
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    margin: 0%;
+}
+
+img.gateaux {
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    margin: 0%;
+}
+
+img.cadeaux {
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    margin: 0%;
+}
+
+#accueil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 1440px;
+    margin-bottom: 25%;
+    margin-left: 11%;
+    margin-top: 20%;
+}
+
+strong {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+p {
+    font-size: 24px;
+}
+
+div.sapin {
+    height: 900px;
+    width: 400px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+
+
+div.gateaux {
+    height: 900px;
+    width: 400px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+
+div.cadeaux {
+    height: 900px;
+    width: 400px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+
+p.art-accueil {
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+p.article {
+    line-height: 30px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+div.art-cadeaux {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+div.art-sapins {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+div.art-gateaux {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+input,
+textarea {
+    background-color: darkred;
+    color: white;
+    font-weight: lighter;
+}
+
+div.menu {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 150px;
+    background-color: darkred;
+    color: white;
+}
+
+div.menu a {
+    word-spacing: 10%;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin-top: 110px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 2%;
+    margin-right: -5%;
+}
+
+div.acc-article {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: nowrap;
+}
+
+a.art {
+    text-align-last: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    word-spacing: 5px;
+    
+}
+
+div.acc-article:hover {
+    div.menu {
+        visibility: visible;
+    }
+}
+
+div.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.aut-nom {
+    margin: 2%;
+    height: 150px;
+    width: 400px;
+}
+
+div.art-nom {
+    margin: 2%;
+    height: 150px;
+    width: 400px;
+}
+
+div.category {
+    height: 70px;
+    width: 600px;
+}
+
+div.art-txt {
+    margin-top: 6%;
+    height: 350px;
+    width: 600px;
+
+    textarea {
+        border-radius: 20px;
+    }
+}
+
+div.art-url {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    margin-left: 4%;
+    height: 50px;
+    width: 400px;
+}
+
+div.art-img {
+    margin-top: 4%;
+    margin-bottom: 8%;
+    height: 70px;
+    width: 600px;
+}
+
+input {
+    font-family: "Bluesky";
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+div.art-img input {
+    padding-top: 2%;
+    text-align: center;
+    height: 35px;
+    width: 170px;
+    background-color: rgb(207, 0, 0);
+}
+
+div.art-txt textarea {
+    margin-top: 3%;
+    height: 300px;
+    width: 600px;
+}
+
+div.art-submit {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.form select,
+.form option {
+    background-color: darkred;
+    color: white;
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    border: 2px solid red;
+    box-shadow: 0 0 20px red;
+    font-size: 20px;
+}
+
+div.art-img input:hover {
+    border: 2px solid orangered;
+    box-shadow: 0 0 20px orangered;
+}
+
+div.art-submit input:hover {
+    font-size: 26px;
+    border: 2px solid orangered;
+    box-shadow: 0 0 20px orangered;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+.connexe a {
+    color: darkred;
+    text-align: center;
+    text-decoration: none;
+    padding: 0%;
+    font-size: 20px;
+}
+
+.connexe a:hover {
+    background-color: transparent;
+    color: red;
+    font-size: 24px;
+}
+
+.connexe a:visited {
+    background-color: transparent;
+    color: rgb(94, 0, 0);
+}
+
+.connexe {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: darkred;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+}
+
+div.url-linkedin {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    margin-right: 20%;
+}
+
+div.logo-linkedin {
+    scale: 50%;
+}
+
+strong {
+    font-weight: 550;
+    font-size: 28px;
+}
