@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Présentation de Framework de Leaning Lab</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="pre-loader.css" />
+		<link rel="stylesheet" href="react.css" />
+		<link rel="stylesheet" href="vscode.css" />
+		<link rel="stylesheet" href="tailwind.css" />
+		<script src="pre-loader.js" defer></script>
+		<script src="react.js" defer></script>
+		<script src="tailwind.css" defer></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="#definition">Définition</a>
+				<a href="#difference">Quel différence avec une librairie ?</a>
+				<a href="#utilite">Quelle utilité ?</a>
+				<a href="#choix">Choisir son framework</a>
+				<a href="#avantages">Les avantages et inconvénients</a>
+				<a href="#pratiques">Les meilleures pratiques</a>
+				<a href="#traditionnel">Code traditionnel ?</a>
+			</nav>
+		</header>
+
+		<section id="definition">
+			<h1>Présentation sur les Frameworks</h1>
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_1.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>Qu'est-ce qu'un Framework ?</h2>
+					<p>
+						<b>Définition :</b> Un outil qui permet de changer sa
+						manière de coder en ajoutant des fonctions ou encore des
+						syntaxes propres à l'outil choisi. Celui-ci doit
+						correspondre au projet que vous menez.
+					</p>
+					<p><b>Exemple :</b> Three.js → 3D en code</p>
+				</div>
+				<div class="icones">
+					<img src="images/icone_1.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="difference">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_2.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>Quelle différence avec une librairie ?</h2>
+					<p>
+						<b>Principal :</b> Une librairie peut ajouter des
+						fonctions mais ne changera pas la syntaxe ni la
+						structure de votre code.
+					</p>
+				</div>
+				<div class="icones">
+					<img src="images/icone_2.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="utilite">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_3.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>Pourquoi utilise-t-on un Framework ?</h2>
+					<p>
+						<b>Principal :</b> Pour utiliser une structure adaptée à
+						la tâche voulue.
+					</p>
+					<p>
+						<b>Exemple :</b> React pour les applications, Tailwind
+						pour être capable de répéter les propriétés (e.g.,
+						<code>div class="flex items-center justify-center"</code
+						>).
+					</p>
+				</div>
+				<div class="icones">
+					<img src="images/icone_3.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="choix">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_4.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>Comment choisir son Framework ?</h2>
+					<p>
+						<b>Principal :</b> Cela dépend de votre but, de vos
+						connaissances et de vos préférences. Si vous souhaitez
+						expérimenter avec de nouveaux Frameworks,
+						renseignez-vous sur leur utilisation.
+					</p>
+				</div>
+				<div class="icones">
+					<img src="images/icone_4.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="avantages">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_1.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>
+						Quels sont les avantages et inconvénients des Frameworks
+						?
+					</h2>
+					<p><b>Avantages :</b></p>
+					<ul>
+						<li>La simplicité</li>
+						<li>L'adaptabilité</li>
+					</ul>
+					<p><b>Inconvénients :</b></p>
+					<ul>
+						<li>L'optimisation</li>
+					</ul>
+				</div>
+				<div class="icones">
+					<img src="images/icone_1.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="pratiques">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_5.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>
+						Meilleures pratiques pour une application basée sur un
+						framework
+					</h2>
+					<ul>
+						<li>
+							Comprenez ses concepts et respectez ses conventions
+						</li>
+						<li>Planifiez une architecture claire</li>
+						<li>Mettez régulièrement à jour le framework</li>
+						<li>Intégrez des tests automatisés</li>
+						<li>Documentez le code</li>
+						<li>Utilisez les dépendances avec prudence</li>
+						<li>Optimisez les performances</li>
+						<li>
+							Appliquez des bonnes pratiques de sécurité
+							spécifiques au framework
+						</li>
+					</ul>
+				</div>
+				<div class="icones">
+					<img src="images/icone_5.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="traditionnel">
+			<div class="box">
+				<div class="icones">
+					<img src="images/icone_6.png" alt="Icône d'informatique" />
+				</div>
+				<div class="center items-center bordure millieu">
+					<h2>Code traditionnel ou Framework ?</h2>
+					<p><b>Code traditionnel :</b></p>
+					<ul>
+						<li>Liberté totale pour structurer et développer</li>
+						<li>Long et sujet à erreurs</li>
+					</ul>
+					<p><b>Code Framework :</b></p>
+					<ul>
+						<li>Structure prédéfinie avec des outils</li>
+						<li>
+							Fonctionnalités intégrées pour accélérer le
+							développement
+						</li>
+						<li>Règles pouvant limiter la flexibilité</li>
+					</ul>
+					<p>
+						Le code traditionnel convient mieux aux projets uniques
+						ou légers, tandis que les frameworks sont idéaux pour
+						des projets complexes nécessitant évolutivité,
+						maintenance et collaboration simplifiée.
+					</p>
+				</div>
+				<div class="icones">
+					<img src="images/icone_6.png" alt="Icône d'informatique" />
+				</div>
+			</div>
+		</section>
+
+		<section id="react">
+			<h2>Comment foncionne React ?</h2>
+			<div
+				class="center items-center bordure"
+				style="position: absolute; height: 100%; width: 60%; padding: 0"
+			></div>
+			<split class="split" style="height: 100%">
+				<div class="post-container">
+					<div class="post">
+						<div class="user">
+							<div class="user-img">
+								<img src="img/PE.jpg" />
+							</div>
+							<span>
+								<h3>Paul-Emile</h3>
+								<h4>Il y a 4 heures</h4>
+							</span>
+						</div>
+						<p>Ceci est mon premier post</p>
+						<img src="img/img1.jpg" class="post-img" />
+						<div class="icons">
+							<div>
+								<img src="./icons/like.svg" />
+								<p>1234</p>
+							</div>
+							<div>
+								<img src="./icons/messages.svg" />
+							</div>
+						</div>
+					</div>
+					<div class="post">
+						<div class="user">
+							<div class="user-img">
+								<img src="img/baptou.jpg" />
+							</div>
+							<span>
+								<h3>Baptou</h3>
+								<h4>hier à 12:04</h4>
+							</span>
+						</div>
+						<p>Ceci est un autre post inutile</p>
+						<img src="img/img2.jpg" class="post-img" />
+						<div class="icons">
+							<div>
+								<img src="./icons/like.svg" />
+								<p>1237890</p>
+							</div>
+							<div>
+								<img src="./icons/messages.svg" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vscode">
+					<div class="vscode-header">
+						<div class="vscode-page selected" id="App.jsx_button">
+							<img src="icons/React.png" />
+							<span>App.jsx</span>
+						</div>
+						<div class="vscode-page" id="Post.jsx_button">
+							<img src="icons/React.png" />
+							<span>Post.jsx</span>
+						</div>
+					</div>
+					<div class="vscode-img">
+						<img
+							src="img/App.jsx.PNG"
+							id="App.jsx"
+							class="selected"
+						/>
+						<img src="img/Post.jsx.PNG" id="Post.jsx" />
+					</div>
+				</div>
+			</split>
+		</section>
+
+		<section id="Typescript">
+            <h2>Comment foncionne Tailwind ?</h2>
+			<div class="split">
+				<div class="box_preview">
+					<div id="typescript_preview">Hello world !</div>
+				</div>
+				<div>
+					<div class="vscode">
+						<div class="vscode-header">
+							<div
+								class="vscode-page selected"
+								id="index.html_button"
+							>
+								<img src="icons/html.png" />
+								<span>index.html</span>
+							</div>
+						</div>
+						<div class="vscode-content">
+							<pre></pre>
+						</div>
+					</div>
+					<div class="buttons">
+						<button
+							class="button"
+							onclick="toggleClass('width-200')"
+						>
+							width-200
+						</button>
+						<button
+							class="button"
+							onclick="toggleClass('bg-blue-500')"
+						>
+							bg-blue-500
+						</button>
+						<button
+							class="button"
+							onclick="toggleClass('padding-10')"
+						>
+							padding-10
+						</button>
+						<button
+							class="button"
+							onclick="toggleClass('rounded-lg')"
+						>
+							rounded-lg
+						</button>
+						<button
+							class="button"
+							onclick="toggleClass('shadow-lg')"
+						>
+							shadow-lg
+						</button>
+						<button
+							class="button"
+							onclick="toggleClass('margin-auto')"
+						>
+							margin-auto
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="pre-loader">
+			<h1>Les frameworks</h1>
+			<h4>Par Anaïs Douce et Pierre Gaillard</h4>
+			<div id="framework_background">
+				<img
+					src="icons/React.png"
+					style="width: 100px; top: 15%; left: 15%"
+				/>
+				<img
+					src="icons/angular.png"
+					style="width: 100px; top: 15%; right: 15%"
+				/>
+				<img
+					src="icons/tailwind.png"
+					style="width: 100px; bottom: 15%; right: 15%"
+				/>
+				<img
+					src="icons/Typescript.png"
+					style="width: 100px; top: 40%; left: 20%"
+				/>
+				<img
+					src="icons/bootstrap.png"
+					style="width: 100px; top: 12%; right: 35%"
+				/>
+				<img
+					src="icons/django.svg"
+					style="width: 100px; bottom: 10%; left: 45%"
+				/>
+				<img
+					src="icons/nodejs.png"
+					style="width: 100px; top: 17%; left: 35%"
+				/>
+				<img
+					src="icons/sass.png"
+					style="width: 100px; bottom: 40%; right: 10%"
+				/>
+				<img
+					src="icons/symfony.png"
+					style="width: 100px; bottom: 15%; left: 15%"
+				/>
+			</div>
+		</section>
+	</body>
+</html>

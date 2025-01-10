@@ -1,0 +1,60 @@
+#Typescript {
+	> div {
+		text-align: left;
+	}
+
+	.p-10 {
+		font-size: 10px;
+	}
+
+	.bg-blue-500 {
+		background-color: #3b82f6;
+	}
+
+	.text-white {
+		color: #fff;
+	}
+
+	.rounded-lg {
+		border-radius: 0.5rem;
+	}
+
+	.shadow-lg {
+		box-shadow: 4px 4px 6px 3px rgb(255 255 255 / 0.5);
+	}
+
+	.padding-10 {
+		padding: 10px;
+	}
+
+	.width-200 {
+		width: 200px;
+	}
+
+	.margin-auto {
+		margin: auto;
+	}
+
+	> div > div {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: row;
+		gap: 10px 5px;
+	}
+
+	.button {
+		background-color: #262a33;
+		color: #fff;
+		padding: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}

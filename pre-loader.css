@@ -1,0 +1,44 @@
+#pre-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #100727;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    color : white;
+    font-family: consola;
+}
+
+#pre-loader.hidden {
+    animation: hidePreloader 1s forwards;
+}
+
+@keyframes hidePreloader {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw);
+        display: none;
+    }
+}
+
+#pre-loader #framework_background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+#pre-loader #framework_background img {
+    aspect-ratio: auto;
+    position: absolute;
+}

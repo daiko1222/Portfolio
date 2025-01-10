@@ -1,0 +1,58 @@
+:root {
+    --vscode_background: #262a33;
+    --vscode_background_header: #23262e;
+    --vscode_background_header_selected: #262a33;
+    --vscode_border_selected: #00e8c6;
+    --vscode_text: #f8f8f2;
+    --vscode_text2: #b8b8b8;
+    --vscode_font: "Fira Code", monospace;
+}
+
+.vscode {
+    background-color: var(--vscode_background);
+    color: var(--vscode_text);
+    font-family: var(--vscode_font);
+    height: 100%;
+    user-select: none;
+    
+    .vscode-header {
+        background-color: var(--vscode_background_header);
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    .vscode-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        height: 15px;
+        border-bottom: var(--vscode_background_header) 1px solid;
+        cursor: pointer;
+    }
+    
+    .vscode-page.selected {
+        background-color: var(--vscode_background_header_selected);
+        border-bottom-color: var(--vscode_border_selected);
+    }
+    
+    .vscode-page > span {
+        font-size: 100%X;
+    }
+    
+    .vscode-img > img {
+        display: none;
+    }
+    
+    .vscode-img > img.selected {
+        display: block;
+    }
+
+    .vscode-content {
+        overflow: scroll;
+        height: 100%;
+        user-select: text;
+    }
+}
