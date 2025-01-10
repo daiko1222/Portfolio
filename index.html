@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Évaluation Motus</title>
+</head>
+
+<body>
+    <section id="jeu">
+    <h1> Jeu Motus </h1>
+
+    <p> <strong>Déroulement </strong>: Chaque équipe propose un mot de la longueur du mot mystère. <br>
+        <strong>Indications </strong>: <br>
+        Les lettres correctes à la bonne place sont marquées en rouge. <br>
+        Les lettres correctes mais mal placées sont marquées en jaune. <br><br>
+        <strong>Objectif </strong>: Trouver le mot mystère avant la fin du nombre de tentatives disponibles, vous avez
+        le droit à 7 tentatives.
+    </p><br>
+
+    <div class="ligne1">
+        <div id="l1-case1" class="case"> <h2 id="l1-lettre1">•</h2></div>
+        <div id="l1-case2" class="case"> <h2 id="l1-lettre2">•</h2></div>
+        <div id="l1-case3" class="case"> <h2 id="l1-lettre3">•</h2></div>
+        <div id="l1-case4" class="case"> <h2 id="l1-lettre4">•</h2></div>
+        <div id="l1-case5" class="case"> <h2 id="l1-lettre5">•</h2></div>
+        <div id="l1-case6" class="case"> <h2 id="l1-lettre6">•</h2></div>
+        <div id="l1-case7" class="case"> <h2 id="l1-lettre7">•</h2></div>
+        <div id="l1-case8" class="case"> <h2 id="l1-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne2">
+        <div id="l2-case1" class="case"> <h2 id="l2-lettre1">•</h2></div>
+        <div id="l2-case2" class="case"> <h2 id="l2-lettre2">•</h2></div>
+        <div id="l2-case3" class="case"> <h2 id="l2-lettre3">•</h2></div>
+        <div id="l2-case4" class="case"> <h2 id="l2-lettre4">•</h2></div>
+        <div id="l2-case5" class="case"> <h2 id="l2-lettre5">•</h2></div>
+        <div id="l2-case6" class="case"> <h2 id="l2-lettre6">•</h2></div>
+        <div id="l2-case7" class="case"> <h2 id="l2-lettre7">•</h2></div>
+        <div id="l2-case8" class="case"> <h2 id="l2-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne3">
+        <div id="l3-case1" class="case"> <h2 id="l3-lettre1">•</h2></div>
+        <div id="l3-case2" class="case"> <h2 id="l3-lettre2">•</h2></div>
+        <div id="l3-case3" class="case"> <h2 id="l3-lettre3">•</h2></div>
+        <div id="l3-case4" class="case"> <h2 id="l3-lettre4">•</h2></div>
+        <div id="l3-case5" class="case"> <h2 id="l3-lettre5">•</h2></div>
+        <div id="l3-case6" class="case"> <h2 id="l3-lettre6">•</h2></div>
+        <div id="l3-case7" class="case"> <h2 id="l3-lettre7">•</h2></div>
+        <div id="l3-case8" class="case"> <h2 id="l3-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne4">
+        <div id="l4-case1" class="case"> <h2 id="l4-lettre1">•</h2></div>
+        <div id="l4-case2" class="case"> <h2 id="l4-lettre2">•</h2></div>
+        <div id="l4-case3" class="case"> <h2 id="l4-lettre3">•</h2></div>
+        <div id="l4-case4" class="case"> <h2 id="l4-lettre4">•</h2></div>
+        <div id="l4-case5" class="case"> <h2 id="l4-lettre5">•</h2></div>
+        <div id="l4-case6" class="case"> <h2 id="l4-lettre6">•</h2></div>
+        <div id="l4-case7" class="case"> <h2 id="l4-lettre7">•</h2></div>
+        <div id="l4-case8" class="case"> <h2 id="l4-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne5">
+        <div id="l5-case1" class="case"> <h2 id="l5-lettre1">•</h2></div>
+        <div id="l5-case2" class="case"> <h2 id="l5-lettre2">•</h2></div>
+        <div id="l5-case3" class="case"> <h2 id="l5-lettre3">•</h2></div>
+        <div id="l5-case4" class="case"> <h2 id="l5-lettre4">•</h2></div>
+        <div id="l5-case5" class="case"> <h2 id="l5-lettre5">•</h2></div>
+        <div id="l5-case6" class="case"> <h2 id="l5-lettre6">•</h2></div>
+        <div id="l5-case7" class="case"> <h2 id="l5-lettre7">•</h2></div>
+        <div id="l5-case8" class="case"> <h2 id="l5-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne6">
+        <div id="l6-case1" class="case"> <h2 id="l6-lettre1">•</h2></div>
+        <div id="l6-case2" class="case"> <h2 id="l6-lettre2">•</h2></div>
+        <div id="l6-case3" class="case"> <h2 id="l6-lettre3">•</h2></div>
+        <div id="l6-case4" class="case"> <h2 id="l6-lettre4">•</h2></div>
+        <div id="l6-case5" class="case"> <h2 id="l6-lettre5">•</h2></div>
+        <div id="l6-case6" class="case"> <h2 id="l6-lettre6">•</h2></div>
+        <div id="l6-case7" class="case"> <h2 id="l6-lettre7">•</h2></div>
+        <div id="l6-case8" class="case"> <h2 id="l6-lettre8">•</h2></div>
+    </div>
+
+    <div class="ligne7">
+        <div id="l7-case1" class="case"> <h2 id="l7-lettre1">•</h2></div>
+        <div id="l7-case2" class="case"> <h2 id="l7-lettre2">•</h2></div>
+        <div id="l7-case3" class="case"> <h2 id="l7-lettre3">•</h2></div>
+        <div id="l7-case4" class="case"> <h2 id="l7-lettre4">•</h2></div>
+        <div id="l7-case5" class="case"> <h2 id="l7-lettre5">•</h2></div>
+        <div id="l7-case6" class="case"> <h2 id="l7-lettre6">•</h2></div>
+        <div id="l7-case7" class="case"> <h2 id="l7-lettre7">•</h2></div>
+        <div id="l7-case8" class="case"> <h2 id="l7-lettre8">•</h2></div>
+    </div>
+
+<br><br>
+<div class="reponse">
+    <input type="text" name="nom" id="mot" placeholder="Entrez votre réponse ici ..."  maxlength="8"/>
+    
+    <button id="bouton"> Valider </button>
+</div><br><br>
+</section>
+<section id="fin">
+<h3 id="titre-fin"></h3><br>
+    <button id="bouton-fin"  onclick="Recommencer">Recommencer</button><br>
+</section>
+</body>
+
+</html>
